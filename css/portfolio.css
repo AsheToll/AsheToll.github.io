@@ -1,0 +1,263 @@
+/* C S S  M E  C O L O R S */
+/* G E N E R A L */
+img, embed, object, video {
+  max-width: 100%; }
+
+nav a, button {
+  min-width: 48px;
+  min-height: 48px; }
+
+html {
+  margin: -12px;
+  padding: 0;
+  height: 100%; }
+
+body h1, body h2 {
+  font-family: Josefin Sans, cursive; }
+body nav, body p {
+  font-family: Roboto, cursive; }
+
+.header {
+  height: 100vh;
+  background-color: #A2FDDA;
+  background-image: url("../img/Portfolio Desktop Mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: contain; }
+
+/* N A V I G A T I O N */
+nav ul {
+  list-style: none;
+  text-align: right;
+  margin: 12px 12px -8px 0;
+  padding-top: 10px; }
+nav li {
+  display: inline-block; }
+nav a {
+  color: #1D3242;
+  padding: 14px 16px; }
+nav a:hover {
+  color: white;
+  background-color: #1D3242;
+  text-decoration: none; }
+
+/* S P L A S H */
+.splash {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: #1D3242; }
+
+/* A B O U T */
+.about {
+  /* C S S  M E */
+  padding: 20px 0; }
+  .about hr {
+    display: block;
+    height: 3px;
+    width: 15%;
+    border: 0;
+    border-top: 3px solid #1D3242;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0; }
+  .about .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto; }
+  .about .me_par {
+    width: 100%;
+    order: 2; }
+  .about .me_pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #fe4a50;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 10;
+    background-color: #FE7D81; }
+    .about .me_pic .hair {
+      position: absolute;
+      width: 90px;
+      height: 80px;
+      background-color: black;
+      border-radius: 50% 50% 0 0;
+      top: 40px;
+      left: 50%;
+      transform: translateX(-50%); }
+    .about .me_pic .bangs1 {
+      position: absolute;
+      width: 30px;
+      height: 25px;
+      border-radius: 0 60% 0 60%;
+      background-color: black;
+      top: 47px;
+      left: 42%;
+      transform: translateX(-50%) rotate(-80deg);
+      z-index: 20; }
+    .about .me_pic .bangs2 {
+      position: absolute;
+      width: 30px;
+      height: 20px;
+      border-radius: 0 60% 0 60%;
+      background-color: black;
+      top: 51px;
+      left: 52%;
+      transform: translateX(-50%) rotate(-80deg);
+      z-index: 20; }
+    .about .me_pic .bangs3 {
+      position: absolute;
+      width: 30px;
+      height: 20px;
+      border-radius: 0 60% 0 60%;
+      background-color: black;
+      top: 50px;
+      left: 62%;
+      transform: translateX(-50%) rotate(-150deg);
+      z-index: 20; }
+    .about .me_pic .face {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background-color: #C68642;
+      border-radius: 100px;
+      top: 50px;
+      left: 50%;
+      transform: translate(-50%);
+      z-index: 3; }
+    .about .me_pic .eyes {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #8d5524;
+      border-radius: 50%;
+      top: 30px;
+      left: 30%;
+      transform: translateX(-50%); }
+    .about .me_pic .eyes:after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #8d5524;
+      border-radius: 50%;
+      top: 0;
+      right: -35px; }
+    .about .me_pic .nose {
+      position: absolute;
+      width: 8px;
+      height: 14px;
+      background-color: #905f2b;
+      border-radius: 4px;
+      top: 35px;
+      left: 48%; }
+    .about .me_pic .mouth {
+      position: absolute;
+      width: 25px;
+      height: 10px;
+      background-color: #8d5524;
+      border-radius: 0 0 100px 100px;
+      top: 56px;
+      left: 51%;
+      transform: translateX(-50%); }
+    .about .me_pic .neck {
+      position: absolute;
+      width: 30px;
+      height: 50px;
+      background-color: #C68642;
+      border-radius: 12px;
+      top: 90px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2; }
+    .about .me_pic .body {
+      position: absolute;
+      width: 100px;
+      height: 150px;
+      background-color: #60FFC7;
+      top: 130px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 40px;
+      z-index: 1;
+      overflow: hidden; }
+  .about h1 {
+    text-align: center; }
+  .about p {
+    color: #486a5f;
+    width: 80%;
+    text-align: center;
+    margin: 40px auto; }
+  .about img {
+    height: 250px;
+    width: 250px; }
+
+/* W O R K */
+.work {
+  background-color: #1D3242;
+  padding: 20px 0; }
+  .work .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+  .work h1 {
+    text-align: center;
+    color: white; }
+  .work hr {
+    display: block;
+    height: 3px;
+    width: 15%;
+    border: 0;
+    border-top: 3px solid white;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0; }
+  .work .yumhack {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .work img {
+    width: 100%;
+    order: 1;
+    height: 250px;
+    margin: 0 auto; }
+  .work .yumhack_pic {
+    width: 100%;
+    order: 1; }
+  .work .yumhack_description {
+    width: 100%;
+    order: 2;
+    margin: 0 auto;
+    padding-bottom: 20px; }
+  .work .divider {
+    display: block;
+    height: 3px;
+    width: 90%;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0; }
+
+/* C O N T A C T */
+/* F O O T E R */
+.footer {
+  display: flex;
+  height: 50px;
+  background-color: #D1E0DB; }
+  .footer p {
+    width: 150px;
+    margin: auto; }
+
+/*# sourceMappingURL=portfolio.css.map */
