@@ -1,0 +1,259 @@
+$primary: #A2FDDA;
+$secondary: #FE7D81;
+$tertiary: #1D3242;
+$text: #D1E0DB;
+$primpop: #60FFC7;
+
+/* G E N E R A L */
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+nav a, button {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+html {
+    margin: -12px;
+    padding: 0;
+    height: 100%;
+}
+
+.header {
+    height: 100vh;
+    background-color: $primary;
+    background-image: url("../img/Portfolio Desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 83% 85%;
+    background-size: 180%;
+}
+
+/* N A V I G A T I O N */
+nav {
+    ul {
+        list-style: none;
+        text-align: right;
+        margin: 12px 12px -8px 0;
+        padding-top: 10px;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        color: $tertiary;
+        padding: 14px 16px;
+    }
+
+    a:hover {
+        color: white;
+        background-color: $tertiary;
+        text-decoration: none;
+    }
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* S P L A S H */
+
+.splash {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: $tertiary;
+
+    h1 {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    p {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 40px;
+        color: $tertiary;
+    }
+}
+
+/* A B O U T */
+
+.about {
+    hr {
+        display: block;
+        height: 3px;
+        width: 2.5%;
+        border: 0;
+        border-top: 3px solid $tertiary;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    padding: 20px 0;
+    width: 100%;
+    margin: 0 auto;
+
+    .container {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        color: darken($text, 50%);
+        width: 100%;
+        text-align: left;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .me {
+        width: 100vw;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: row nowrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        justify-content: center;
+        padding-bottom: 40px;  
+    }
+
+    .me_par {
+        width: 20%; order: 1;
+        margin-right: 50px;
+        text-align: justify;
+    }
+
+    .me_pic {
+        width: 10%; order: 2;
+        margin: 0; padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* W O R K */
+
+.work {
+    background-color: $tertiary;
+    padding: 20px 0;
+
+    h1 {
+        text-align: center;
+    }
+
+    hr {
+        display: block;
+        height: 3px;
+        width: 2.5%;
+        border: 0;
+        border-top: 3px solid white;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    /* YumHack */
+    .yumhack {
+        width: 100vw;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: row nowrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .yumhack_pic {
+        width: 20%; order: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .yumhack_description {
+        width: 20%; order: 2;
+        margin: 0; padding: 0;
+        margin-left: 50px;
+        text-align: justify;
+
+    }
+
+    .divider {
+        display: block;
+        height: 3px;
+        width: 42%;
+        border: 0;
+        border-top: 1px solid white;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    /* Andre's Portfolio */
+    .andrefolio {
+        width: 100vw;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: row nowrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .andrefolio_pic {
+        width: 20%; order: 2;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .andrefolio_description {
+        width: 20%; order: 1;
+        margin: 0; padding: 0;
+        margin-right: 50px;
+        text-align: justify;
+
+    }
+}
+
+/* C O N T A C T */
+
+/* F O O T E R */

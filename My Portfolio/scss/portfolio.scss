@@ -1,0 +1,349 @@
+$primary: #A2FDDA;
+$secondary: #FE7D81;
+$tertiary: #1D3242;
+$text: #D1E0DB;
+$primpop: #60FFC7;
+
+/* C S S  M E  C O L O R S */
+$skin: #C68642;
+$eyes-mouth: #8d5524;
+$hair: black;
+$clothes: gray;
+
+/* G E N E R A L */
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+nav a, button {
+    min-width: 48px;
+    min-height: 48px;
+}
+
+html {
+    margin: -12px;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    h1, h2 {
+        font-family: Josefin Sans, cursive;
+    }
+
+    nav, p {
+        font-family: Roboto, cursive;
+    }
+}
+
+.header {
+    height: 100vh;
+    background-color: $primary;
+    background-image: url("../img/Portfolio Desktop Mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: contain;
+}
+
+/* N A V I G A T I O N */
+nav {
+    ul {
+        list-style: none;
+        text-align: right;
+        margin: 12px 12px -8px 0;
+        padding-top: 10px;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        color: $tertiary;
+        padding: 14px 16px;
+    }
+
+    a:hover {
+        color: white;
+        background-color: $tertiary;
+        text-decoration: none;
+    }
+}
+
+/* S P L A S H */
+
+.splash {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: $tertiary;
+}
+
+/* A B O U T */
+
+.about {
+    hr {
+        display: block;
+        height: 3px;
+        width: 15%;
+        border: 0;
+        border-top: 3px solid $tertiary;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .me_par {
+        width: 100%; order: 2;
+    }
+
+/* C S S  M E */
+    .me_pic {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 2px solid darken($secondary, 10%);
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        z-index: 10;
+        background-color: $secondary;
+
+        .hair {
+            position: absolute;
+            width: 90px;
+            height: 80px;
+            background-color: black;
+            border-radius: 50% 50% 0 0;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .bangs1 {
+            position: absolute;
+            width: 30px;
+            height: 25px;
+            border-radius: 0 60% 0 60%;
+            background-color: black;
+            top: 47px;
+            left: 42%;
+            transform: translateX(-50%) rotate(-80deg);
+            z-index: 20;
+        }
+
+        .bangs2 {
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            border-radius: 0 60% 0 60%;
+            background-color: black;
+            top: 51px;
+            left: 52%;
+            transform: translateX(-50%) rotate(-80deg);
+            z-index: 20;
+        }
+
+        .bangs3 {
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            border-radius: 0 60% 0 60%;
+            background-color: black;
+            top: 50px;
+            left: 62%;
+            transform: translateX(-50%) rotate(-150deg);
+            z-index: 20;
+        }
+
+        .face {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background-color: $skin;
+            border-radius: 100px;
+            top: 50px;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 3;
+        }
+
+        .eyes {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: $eyes-mouth;
+            border-radius: 50%;
+            top: 30px;
+            left: 30%;
+            transform: translateX(-50%);
+        }
+
+        .eyes:after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: $eyes-mouth;
+            border-radius: 50%;
+            top: 0;
+            right: -35px;
+        }
+
+        .nose {
+            position: absolute;
+            width: 8px;
+            height: 14px;
+            background-color: darken($skin, 15%);
+            border-radius: 4px;
+            top: 35px;
+            left: 48%;
+        }
+
+        .mouth {
+            position: absolute;
+            width: 25px;
+            height: 10px;
+            background-color: $eyes-mouth;
+            border-radius: 0 0 100px 100px;
+            top: 56px;
+            left: 51%;
+            transform: translateX(-50%);
+        }
+
+        .neck {
+            position: absolute;
+            width: 30px;
+            height: 50px;
+            background-color: $skin;
+            border-radius: 12px;
+            top: 90px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+
+        .body {
+            position: absolute;
+            width: 100px;
+            height: 150px;
+            background-color: $primpop;
+            top: 130px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 40px;
+            z-index: 1;
+            overflow: hidden;
+        }
+    }
+
+    padding: 20px 0;
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        color: darken($text, 50%);
+        width: 80%;
+        text-align: center;
+        margin: 40px auto;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+/* W O R K */
+
+.work {
+    background-color: $tertiary;
+    padding: 20px 0;
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    hr {
+        display: block;
+        height: 3px;
+        width: 15%;
+        border: 0;
+        border-top: 3px solid white;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .yumhack {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 100%; order: 1;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .yumhack_pic {
+        width: 100%; order: 1;
+    }
+
+    .yumhack_description {
+        width: 100%; order: 2;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .divider {
+        display: block;
+        height: 3px;
+        width: 90%;
+        border: 0;
+        border-top: 1px solid white;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+}
+
+/* C O N T A C T */
+
+/* F O O T E R */
+.footer {
+    display: flex;
+    height: 50px;
+    background-color: $text;
+
+    p {
+        width: 150px;
+        margin: auto;
+    }
+}
