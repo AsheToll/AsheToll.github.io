@@ -1,0 +1,132 @@
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+
+        <title></title>
+
+        <meta name = "viewport", content = "width = device-width, initial-scale = 1">
+
+        <link rel = "stylesheet" href = "css/portfolio.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+        <!-- Media Queries -->
+        <link rel = "stylesheet" media = "screen and (min-width: 600px)" href = "css/tablet.css">
+        <link rel = "stylesheet" media = "screen and (min-width: 800px)" href = "css/desktop.css">
+
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Bubbler+One|Josefin+Sans|Raleway|Roboto" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- H E A D E R -->
+        <header class = "header">
+        <!-- N A V I G A T I O N -->    
+            <nav>
+                <div id = "nav_wrapper">
+                    <ul>
+                        <li><a href = "#about">About</a></li><!--
+                    --><li><a href = "#work">Work</a></li><!--
+                    --><li><a href = "#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class = "container bar_menu" onclick = "showMenu(this)">
+                <div class = "bar1"></div>
+                <div class = "bar2"></div>
+                <div class = "bar3"></div>
+            </div>
+
+            <hr>
+
+        <!-- S P L A S H -->
+            <div class = "container splash">
+                <h1>Ashley Tolen</h1>
+                <p class = "lead">Front End Developer</p>
+                <!-- this is where the social icons would go -->
+                <a href = "#about_section">
+                    <!-- Down Arrow Icon -->
+                </a>
+            </div>       
+        </header>
+        <!-- A B O U T -->
+        <section id = "about_section">
+            <a name = "about"></a>
+            <div class = "about">
+                <h1>About Me</h1>
+                <hr>
+                <div class = "container me">
+                    <div class = "container me_pic">
+                        <div class = "hair"></div>
+                        <div class = "bangs1"></div>
+                        <div class = "bangs2"></div>
+                        <div class = "bangs3"></div>
+                        <div class = "face">
+                            <div class = "eyes"></div>
+                            <div class = "nose"></div>
+                            <div class = "mouth"></div>
+                        </div>
+                        <div class = "neck"></div>
+                        <div class = "body">
+                            <div class = "hoodie"></div>
+                        </div>
+                    </div>
+                    <div class = "me_par">
+                        <p>Hey, I'm Ashley! I'm a self-taught front end developer. When I'm not programming, I'm gaming, watching Batman fight crime, or building LEGO sets.</p>
+                        <p>I'm proficient in HTML, CSS, JavaScript, Angular, Node.js, Adobe Illustrator, and Photoshop.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- W O R K -->
+        <section>
+            <a name = "work"></a>
+            <div class = "container-fluid work">
+                <h1>Work</h1>
+                <hr>
+                <!-- YumHack -->
+                <div class = "container yumhack">
+                    <div class = "yumhack_pic">
+                        <img src = "C:\Users\Ashley\Pictures\Stock Photos\YumHack_Screencaps.png">
+                    </div>
+                    <div class = "yumhack_description">
+                        <h2 style = "color: white">YumHack</h2>
+                        <p style = "color: white">Ionic | Angular | Node.js</p>
+                        <p style = "color:#9AACB8">Get all the secret menus to your favorite fast food joints straight to your phone. Break from the official menu, and join the secret society of fast food connoisseurs.</p>
+                    </div>
+                </div>
+                <!--
+                    <hr class = "divider">
+                Andre's Site
+                <div class = "container andrefolio">
+                    <div class = "andrefolio_pic">
+                        <img src = "C:\Users\Ashley\Pictures\Stock Photos\YumHack_Screencaps.png">
+                    </div>
+                    <div class = "andrefolio_description">
+                        <h2 style = "color: white">AndreRivero.com</h2>
+                        <p style = "color: white">Ionic | Angular | Node.js</p>
+                        <p style = "color:#9AACB8">Get all the secret menus to your favorite fast food joints straight to your phone. Break from the official menu, and join the secret society of fast food connoisseurs.</p>
+                        <p style = "color:#9AACB8">Get all the secret menus to your favorite fast food joints straight to your phone. Break from the official menu, and join the secret society of fast food connoisseurs.</p>
+                    </div>
+                </div>
+                -->
+            </div>
+        </section>
+        <!-- C O N T A C T -->
+        <div class = "container contact">
+            <div class = "contact1"></div>
+            <div class = "contact2"></div>
+        </div>
+        <!-- F O O T E R -->
+        <footer>
+            <a name = "contact"></a>
+            <div class = "container footer">
+                <p>&copy; Ashley Tolen 2017</p>
+                <!-- icons -->
+            </div>
+        </footer>
+
+        <script src = "js/portfolio.js"></script>
+    </body>
+</html>
