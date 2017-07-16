@@ -72,6 +72,13 @@ nav a:hover {
     margin: auto;
     margin-top: 40px;
     color: #1D3242; }
+  .splash .social_icons {
+    margin: auto;
+    padding-top: 70px; }
+  .splash img {
+    width: 30px;
+    height: 30px;
+    text-align: center; }
 
 /* A B O U T */
 .about {
@@ -199,5 +206,14 @@ nav a:hover {
 
 /* C O N T A C T */
 /* F O O T E R */
+.footer {
+  display: block;
+  background-color: #D1E0DB;
+  padding: 20px 0; }
+  .footer .social_icons {
+    margin-top: -15px; }
+  .footer img {
+    width: 30px;
+    height: 30px; }
 
 /*# sourceMappingURL=desktop.css.map */
