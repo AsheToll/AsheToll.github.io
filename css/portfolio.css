@@ -53,6 +53,14 @@ nav a:hover {
   height: 100px;
   text-align: center;
   color: #1D3242; }
+  .splash .social_icons {
+    margin: auto;
+    margin-top: -5px;
+    z-index: 1; }
+  .splash img {
+    width: 30px;
+    height: 30px;
+    text-align: center; }
 
 /* A B O U T */
 .about {
@@ -253,11 +261,13 @@ nav a:hover {
 /* C O N T A C T */
 /* F O O T E R */
 .footer {
-  display: flex;
-  height: 50px;
-  background-color: #D1E0DB; }
-  .footer p {
-    width: 150px;
-    margin: auto; }
+  background-color: #D1E0DB;
+  padding: 10px 0px;
+  text-align: center; }
+  .footer .social_icons {
+    margin-top: -15px; }
+  .footer img {
+    width: 30px;
+    height: 30px; }
 
 /*# sourceMappingURL=portfolio.css.map */
