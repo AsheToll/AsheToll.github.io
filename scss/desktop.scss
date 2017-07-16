@@ -98,6 +98,16 @@ nav {
         margin-top: 40px;
         color: $tertiary;
     }
+    
+    .social_icons {
+        margin: auto;
+        padding-top: 70px;
+    }
+
+    img {
+        width: 30px; height: 30px;
+        text-align: center;
+    }
 }
 
 /* A B O U T */
@@ -257,3 +267,16 @@ nav {
 /* C O N T A C T */
 
 /* F O O T E R */
+.footer {
+    display: block;
+    background-color: $text;
+    padding: 20px 0;
+
+    .social_icons {
+        margin-top: -15px;
+    }
+
+    img {
+        width: 30px; height: 30px;
+    }
+}
