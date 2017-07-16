@@ -84,6 +84,17 @@ nav {
     height: 100px;
     text-align: center;
     color: $tertiary;
+    
+    .social_icons {
+        margin: auto;
+        margin-top: -5px;
+        z-index: 1;
+    }
+
+    img {
+        width: 30px; height: 30px;
+        text-align: center;
+    }
 }
 
 /* A B O U T */
@@ -338,12 +349,15 @@ nav {
 
 /* F O O T E R */
 .footer {
-    display: flex;
-    height: 50px;
     background-color: $text;
+    padding: 10px 0px;
+    text-align: center;
 
-    p {
-        width: 150px;
-        margin: auto;
+    .social_icons {
+        margin-top: -15px;
+    }
+
+    img {
+        width: 30px; height: 30px;
     }
 }
