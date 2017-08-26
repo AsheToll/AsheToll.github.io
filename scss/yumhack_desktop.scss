@@ -1,0 +1,206 @@
+$primary: #FF3D7F;
+$secondary: #3FB8AF;
+$tertiary: #F8F8F8;
+
+// Grid
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+// Clearfix
+@mixin clearfix {
+    &:after {
+        display: table;
+        clear: both;
+        content: '';
+    }
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+}
+
+h2 {
+    font-family: 'Lato';
+    font-size: 42px;
+}
+
+p {
+    font-family: 'Lato Light';
+    color: darken(#ccc, 15%);
+}
+
+// Header
+
+header {
+    background-image: linear-gradient(rgba(255, 61, 127, 0.5), rgba(0, 0, 0, 0.5)), url('../img/pexels-photo-378570 (1).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 80px 0 40px 0;
+
+    .l-header {
+        @include clearfix;
+        .l-3-spaces {
+            width: percentage(2.5/12);
+            padding-left: 10px;
+            padding-right: 10px;
+            float: left;
+        }
+    
+        .l-text {
+            width: percentage(3.5/12);
+            padding-left: 10px;
+            padding-right: 10px;
+            float: left;
+            margin-top: 5%;
+        }
+
+        .l-1-space {
+            width: percentage(1/12);
+            padding-left: 10px;
+            padding-right: 10px;
+            float: left;
+        }
+    
+        .l-phone {
+            width: percentage(2.5/12);
+            padding-left: 10px;
+            padding-right: 10px;
+            float: left;
+        }
+    }
+
+    h1 {
+        padding: 10px 0;
+        text-align: left;
+        font-size: 50px;
+    }
+
+    h2 {
+        padding: 30px 0;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 30px;
+        text-align: left;
+        color: white;
+        float: left;
+    }
+
+    .phone {
+        height: 500px;
+        margin-bottom: 40px;
+    }
+}
+
+.features, .walkthrough, .demo, .screenshots, .subscribe {
+    width: 100%;
+}
+
+// Features
+
+.features {
+    text-align: center;
+    padding: 60px 0;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    h2, h3 {
+        font-weight: bold;
+    }
+
+    i {
+        font-size: 30px;
+        color: $primary;
+    }
+
+    p {
+        font-size: 16px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+// Screenshots
+
+.screenshots {
+    text-align: center;
+    padding: 80px 0;
+    background-color: $tertiary;
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    h2, h3 {
+        font-weight: bold;
+    }
+
+    .col-md-4 {
+        padding: 10px;
+    }
+
+    i {
+        font-size: 30px;
+        color: $primary;
+    }
+
+    p {
+        font-size: 16px;
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        color: darken(#ccc, 15%);
+    }
+
+    img {
+        height: 400px;
+    }
+}
+
+// Subscribe
+
+.subscribe {
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+    background-image: linear-gradient(rgba(255, 61, 127, 0.5), rgba(255, 61, 127, 0.5)), url('../img/pexels-photo-378570 (1).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    h2, h3 {
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 16px;
+        color: white;
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    input {
+        width: 25%;
+        display: inline-block;
+    }
+}
+
+// Footer
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+}
