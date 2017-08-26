@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Lato:300,400");
+h1 {
+  font-family: 'Abril Fatface';
+  font-size: 2em; }
+
+h2 {
+  font-family: 'Lato'; }
+
+p {
+  font-family: 'Lato Light';
+  color: #a6a6a6; }
+
+header {
+  background-image: linear-gradient(rgba(255, 61, 127, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pexels-photo-378570 (1).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FF3D7F;
+  text-align: center;
+  color: white; }
+  header h1 {
+    padding: 10px 0;
+    display: inline-block; }
+  header h2 {
+    padding: 30px 0; }
+  header p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    width: 80%;
+    color: white;
+    margin: 0 auto; }
+  header .phone {
+    height: 500px;
+    margin-bottom: 40px; }
+
+.features {
+  text-align: center;
+  padding: 30px 0; }
+  .features h2 {
+    margin-bottom: 30px; }
+  .features h2, .features h3 {
+    font-weight: bold; }
+  .features .col-md-4 {
+    padding: 10px; }
+  .features i {
+    font-size: 30px;
+    color: #FF3D7F; }
+  .features p {
+    font-size: 16px; }
+
+.walkthrough {
+  background-color: #F8F8F8;
+  text-align: center;
+  padding: 30px 0; }
+  .walkthrough h2 {
+    margin-bottom: 30px; }
+  .walkthrough h2, .walkthrough h3 {
+    font-weight: bold; }
+  .walkthrough .col-md-4 {
+    padding: 10px; }
+  .walkthrough p {
+    font-size: 16px; }
+
+.demo {
+  background-color: #FF3D7F;
+  text-align: center;
+  padding: 30px 0;
+  color: white; }
+  .demo h2 {
+    margin-bottom: 30px; }
+  .demo h2, .demo h3 {
+    font-weight: bold; }
+  .demo p {
+    font-size: 16px; }
+
+.screenshots {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #F8F8F8; }
+  .screenshots h2 {
+    margin-bottom: 30px; }
+  .screenshots h2, .screenshots h3 {
+    font-weight: bold; }
+  .screenshots .col-md-4 {
+    padding: 10px; }
+  .screenshots i {
+    font-size: 30px;
+    color: #FF3D7F; }
+  .screenshots p {
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #a6a6a6; }
+  .screenshots img {
+    height: 400px; }
+
+.subscribe {
+  background-image: linear-gradient(rgba(255, 61, 127, 0.5), rgba(255, 61, 127, 0.5)), url("../img/pexels-photo-378570 (1).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FF3D7F;
+  text-align: center;
+  padding: 30px 0;
+  color: white; }
+  .subscribe h2 {
+    margin-bottom: 30px; }
+  .subscribe h2, .subscribe h3 {
+    font-weight: bold; }
+  .subscribe p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px; }
+  .subscribe input {
+    width: 50%;
+    display: inline-block; }
+
+footer {
+  text-align: center;
+  padding: 25px 0; }
+
+/*# sourceMappingURL=mobile.css.map */
