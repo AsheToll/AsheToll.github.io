@@ -1,0 +1,82 @@
+body h1, body h2 {
+  font-family: Josefin Sans, cursive;
+  text-align: center; }
+body nav, body p {
+  font-family: Roboto, cursive;
+  font-size: 20px; }
+body ul, body li {
+  font-size: 18px; }
+
+img {
+  height: 450px; }
+
+.idk {
+  height: 250px;
+  width: 325px;
+  background-image: url("../img/design.png");
+  background-size: 100% 100%; }
+
+.idk2 {
+  height: 215px;
+  width: 325px;
+  background-image: url("../img/menu.png");
+  background-size: 100% 100%; }
+
+.idk3 {
+  height: 215px;
+  width: 325px;
+  background-image: url("../img/menu2.png");
+  background-size: 100% 100%; }
+
+.title {
+  height: 50vh;
+  background-color: #A2FDDA;
+  position: relative; }
+  .title .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .title h1 {
+    text-align: center;
+    color: #1D3242; }
+  .title hr {
+    width: 25%; }
+
+.summary {
+  padding-bottom: 60px;
+  margin: 0 auto; }
+
+.research {
+  padding-top: 30px; }
+
+.text {
+  padding: 30px 0; }
+  .text h1 {
+    text-align: center;
+    color: #1D3242; }
+  .text hr {
+    width: 12.5%; }
+  .text .tablefeed {
+    padding: 30px 0; }
+  .text .menu {
+    padding-bottom: 30px; }
+  .text .design {
+    background-color: #f8f8f8;
+    padding-top: 30px; }
+    .text .design p {
+      text-align: left; }
+    .text .design .update {
+      padding-top: 30px; }
+    .text .design .col-md-4 {
+      text-align: center; }
+
+.updated {
+  text-align: center;
+  padding-bottom: 30px; }
+  .updated img {
+    display: none; }
+  .updated ul {
+    list-style: none; }
+
+/*# sourceMappingURL=yumhackredesign.css.map */
