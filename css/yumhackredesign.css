@@ -10,7 +10,17 @@ body ul, body li {
 img {
   height: 450px; }
 
-.idk, .idk2, .idk3 {
+.idk img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.idk2 img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.idk3 img {
   margin: 0 auto;
   text-align: center;
 }
