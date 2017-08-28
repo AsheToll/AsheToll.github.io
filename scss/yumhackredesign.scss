@@ -25,8 +25,10 @@ img {
 }
 
 .idk, .idk2, .idk3 {
-    margin: 0 auto;
-    text-align: center;
+    img {
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 .idk {
