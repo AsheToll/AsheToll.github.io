@@ -1,0 +1,127 @@
+$primary: #A2FDDA;
+$secondary: #FE7D81;
+$tertiary: #1D3242;
+$text: #D1E0DB;
+$primpop: #60FFC7;
+
+body {
+    h1, h2 {
+        font-family: Josefin Sans, cursive;
+        text-align: center;
+    }
+
+    nav, p {
+        font-family: Roboto, cursive;
+        font-size: 20px;
+    }
+
+    ul, li {
+        font-size: 18px;
+    }
+}
+
+img {
+    height: 450px;
+}
+
+.idk {
+    height: 250px; width: 325px;
+    background-image: url("../img/design.png");
+    background-size: 100% 100%;
+}
+
+.idk2 {
+    height: 215px; width: 325px;
+    background-image: url("../img/menu.png");
+    background-size: 100% 100%;
+}
+
+.idk3 {
+    height: 215px; width: 325px;
+    background-image: url("../img/menu2.png");
+    background-size: 100% 100%;
+}
+
+.title {
+    height: 50vh;
+    background-color: $primary;
+    position: relative;
+    
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    h1 {
+      text-align: center;
+      color: $tertiary;
+    }
+    
+    hr {
+      width: 25%;
+    }
+  }
+
+  .summary {
+      padding-bottom: 60px;
+      margin: 0 auto;
+  }
+  
+.research {
+    padding-top: 30px;
+}
+
+.text {
+    padding: 30px 0;
+    
+    h1 {
+      text-align: center;
+      color: #1D3242;
+    }
+    
+    hr {
+      width: 12.5%;
+    }
+
+    // Tablefeed
+    .tablefeed {
+        padding: 30px 0;
+    }
+  
+    // Menu
+    .menu {
+        padding-bottom: 30px;
+    }
+  
+    .design {
+        background-color: #f8f8f8;
+        padding-top: 30px;
+
+        p {
+            text-align: left;
+        }
+
+        .update {
+            padding-top: 30px;
+        }
+    
+        .col-md-4 {
+            text-align: center;
+        }
+    }
+}
+
+.updated {
+    text-align: center;
+    padding-bottom: 30px;
+
+    img {
+        display: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+}

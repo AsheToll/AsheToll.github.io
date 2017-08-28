@@ -1,0 +1,151 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Redesigning YumHack</title>
+
+        <!-- CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/yumhackredesign.css" rel="stylesheet">
+
+        <!-- Media Queries -->
+    <link rel = "stylesheet" media = "screen and (min-width: 600px)" href = "css/yhtablet.css">
+    <link rel = "stylesheet" media = "screen and (min-width: 800px)" href = "css/yhdesktop.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Bubbler+One|Josefin+Sans|Raleway|Roboto" rel="stylesheet">
+
+
+    </head>
+    <body>
+        
+        <div class = "title">
+        <div class = "container">
+            <h1>Redesigning YumHack</h1>
+            <hr>
+        </div>
+        </div>
+        
+        <div class = "text">
+        <!-- Research Section -->
+        <div class = "research">
+            <div class = "container">
+            <h1>Research</h1>
+            <hr>
+            
+            <!-- Tablefeed -->
+            <div class = "tablefeed">
+                <div class = "summary">
+                    <p>Coming into YumHack, there were preexisting designs and branding. It didn't give me a chance to conduct research with users, but there were a few things that could be improved upon - with User Testing hopefully giving us valuable feedback down the line once we launch the beta.</p>
+                </div>
+                <div class = "row">
+                <!-- Tablefeed Image -->
+                <div class = "col-md-2 col-md-offset-2">
+                    <img src = "img/1.png">
+                </div>
+                <!-- Tablefeed Text -->
+                <div class = "col-md-5 col-md-offset-1">
+                    <h2 style = "font-weight: bold">Tablefeed</h2>
+                    <br>
+                    <p>Tablefeed shows a randomly sorted list of menu items for users to discover.</p>
+                    <ul>
+                        <li>Icons
+                            <ul>
+                                <li>Highlighted to show current page, others grayed out</li>
+                                <li>Maybe select some more universally recognizable icons? Since there's no text.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Image w/ Name & Restaurant
+                            <ul>
+                                <li>There's no indication of what to do on this screen - how can info be presented better?</li>
+                                <li>Food app, let's show off the food, remove overlay, make "how to order" clearer.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            
+            <!-- Menu -->
+            <div class = "menu">
+                <div class = "row">
+                <!-- Menu Text -->
+                <div class = "col-md-5 col-md-offset-2">
+                    <h2 style = "font-weight: bold">Menu</h2>
+                    <br>
+                    <p>Menus display a list of restaurants you can select menu items from</p>
+                    <ul>
+                        <li>Again, no indication of what to do here... maybe add an arrow icon so users know selecting a restaurant takes them to another page</li>
+                        <br>
+                        <li>Maybe consider adding a tutorial the first time users open the app</li>
+                    </ul>
+                </div>
+                <!-- Menu Image -->
+                <div class = "col-md-2">
+                    <img src = "img/3.png">
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class = "design">
+            <div class = "container">
+            <h1>Design</h1>
+            <hr>
+            <div class = "update">
+                <div class = "summary">
+                    <p>Initially, I jotted down some very quick notes about things I noticed right off the bat. Once I started building the app out, the changes were more significant.</p>
+                    </div>
+                <div class = "updated">
+                        <div class = "idk"></div>
+                        <img src = "img/design.png">
+                        <h2>Design Inspiration & Wireframes...</h2>
+                        <p>
+                            <ul>
+                                <li><a href = "https://dribbble.com/shots/1554241-Bakery-Website">Bakery Website</a> on Dribbble</li>
+                                <li><a href = "https://www.behance.net/gallery/55735377/OneChef-Mobile-app">OneChef - Mobile App</a> on Behance</li>
+                                <li><a href = "https://www.behance.net/gallery/54960507/FoodBerry">FoodBerry</a> on Behance</li>
+                            </ul>
+                        </p>
+                    </div>
+                <div class = "updated">
+                    <div class = "idk2"></div>
+                    <img src = "img/menu.png">
+                    <h2>Menu</h2>
+                    <p>Looking at other food apps, I noticed we didn't show food enough. One of the changes I was most excited about what getting rid of the list and thumbnails, and tossing in cards that showed off food, logos, and buttons to help get around.</p>
+                </div>
+                <div class = "updated">
+                    <div class = "idk3"></div>
+                    <img src = "img/menu2.png">
+                    <h2>"Menu 2" - Selecting a Restaurant</h2>
+                    <p>This was originally also another poor list view - with the menu items as the thumbnail.</p>
+                    <br>
+                    <p>While I'm still not entirely sure if this is how I want to display the food items, I think I'll keep the addition of the small blurb at the top of every restaurant's page.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div style = "padding-top: 60px">
+            <div class = "container">
+            <h1>Wrapping it Up</h1>
+            <hr>
+            <div style = "padding-top: 60px">
+                <div class = "summary">
+                    <p>I still have to figure out what Tablefeed - the first page of the app - is going to look like. I'll most likely go with the sketch at the bottom of the second wireframe.</p>
+                    <br>
+                    <p>I also have to address the inconsistencies between the three platforms (iOS, Android, Windows). There are certain things - like the way Windows removes the tabbar from the bottom of the toolbar when navigating to other pages - that I feel look better on the app. But I'll leave that decision up to the users.</p>
+                    <br>
+                    <p>In the meantime, I'm looking forward to going out and trying all the secret menu items :) and taking better pictures for the official release while our beta group gives us feedback.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+        
+    </body>
+</html>
