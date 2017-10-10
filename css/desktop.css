@@ -136,7 +136,8 @@ nav a:hover {
   background-color: #1D3242;
   padding: 20px 0;
   /* YumHack */
-  /* Andre's Portfolio */ }
+  /* Travel */
+  /* Restaurant */ }
   .work h1 {
     text-align: center; }
   .work hr {
@@ -180,7 +181,7 @@ nav a:hover {
     margin: 0 auto;
     margin-bottom: 40px;
     padding: 0; }
-  .work .andrefolio {
+  .work .travel {
     width: 100vw;
     display: flex;
     flex-wrap: nowrap;
@@ -190,18 +191,41 @@ nav a:hover {
     align-content: center;
     margin: auto;
     justify-content: center;
-    padding-bottom: 20px; }
-  .work .andrefolio_pic {
+    padding-bottom: 40px; }
+  .work .travel_pic {
     width: 20%;
     order: 2;
     justify-content: center;
     align-items: center; }
-  .work .andrefolio_description {
+  .work .travel_description {
     width: 20%;
     order: 1;
     margin: 0;
     padding: 0;
-    margin-right: 50px;
+    margin-left: 50px;
+    text-align: justify; }
+  .work .rest {
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 40px; }
+  .work .rest_pic {
+    width: 20%;
+    order: 1;
+    justify-content: center;
+    align-items: center; }
+  .work .rest_description {
+    width: 20%;
+    order: 2;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
     text-align: justify; }
 
 /* C O N T A C T */
