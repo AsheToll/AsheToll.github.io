@@ -98,7 +98,7 @@ nav {
         margin-top: 40px;
         color: $tertiary;
     }
-    
+
     .social_icons {
         margin: auto;
         padding-top: 70px;
@@ -221,7 +221,6 @@ nav {
         margin: 0; padding: 0;
         margin-left: 50px;
         text-align: justify;
-
     }
 
     .divider {
@@ -235,8 +234,8 @@ nav {
         padding: 0;
     }
 
-    /* Andre's Portfolio */
-    .andrefolio {
+    /* Travel */
+    .travel {
         width: 100vw;
         display: flex;
         flex-wrap: nowrap;
@@ -246,22 +245,49 @@ nav {
         align-content: center;
         margin: auto;
         justify-content: center;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
-    .andrefolio_pic {
+    .travel_pic {
         width: 20%; order: 2;
         justify-content: center;
         align-items: center;
     }
 
-    .andrefolio_description {
+    .travel_description {
         width: 20%; order: 1;
         margin: 0; padding: 0;
-        margin-right: 50px;
+        margin-left: 50px;
         text-align: justify;
-
     }
+
+    /* Restaurant */
+    .rest {
+        width: 100vw;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: row nowrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .rest_pic {
+        width: 20%; order: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rest_description {
+        width: 20%; order: 2;
+        margin: 0; padding: 0;
+        margin-left: 50px;
+        text-align: justify;
+    }
+
 }
 
 /* C O N T A C T */
