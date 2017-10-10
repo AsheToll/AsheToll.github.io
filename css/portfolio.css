@@ -229,7 +229,7 @@ nav a:hover {
     margin: 0 auto;
     margin-bottom: 40px;
     padding: 0; }
-  .work .yumhack {
+  .work .yumhack, .work .travel, .work .rest {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -240,10 +240,10 @@ nav a:hover {
     order: 1;
     height: 250px;
     margin: 0 auto; }
-  .work .yumhack_pic {
+  .work .yumhack_pic, .work .travel_pic, .work .rest_pic {
     width: 100%;
     order: 1; }
-  .work .yumhack_description {
+  .work .yumhack_description, .work .travel_description, .work .rest_description {
     width: 100%;
     order: 2;
     margin: 0 auto;
