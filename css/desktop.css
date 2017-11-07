@@ -181,7 +181,7 @@ nav a:hover {
     margin: 0 auto;
     margin-bottom: 40px;
     padding: 0; }
-  .work .travel {
+  .work .hosthome {
     width: 100vw;
     display: flex;
     flex-wrap: nowrap;
@@ -192,43 +192,19 @@ nav a:hover {
     margin: auto;
     justify-content: center;
     padding-bottom: 40px; }
-  .work .travel_pic {
+  .work .hosthome_pic {
     width: 20%;
     order: 2;
     justify-content: center;
     align-items: center; }
-  .work .travel_description {
+  .work .hosthome_description {
     width: 20%;
     order: 1;
-    margin: 0;
-    padding: 0;
-    margin-left: 50px;
-    text-align: justify; }
-  .work .rest {
-    width: 100vw;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-flow: row nowrap;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    margin: auto;
-    justify-content: center;
-    padding-bottom: 40px; }
-  .work .rest_pic {
-    width: 20%;
-    order: 1;
-    justify-content: center;
-    align-items: center; }
-  .work .rest_description {
-    width: 20%;
-    order: 2;
     margin: 0;
     padding: 0;
     margin-left: 50px;
     text-align: justify; }
 
-/* C O N T A C T */
 /* F O O T E R */
 .footer {
   display: block;
