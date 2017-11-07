@@ -223,6 +223,7 @@ nav {
         text-align: justify;
     }
 
+    /* Divider Styling */
     .divider {
         display: block;
         height: 3px;
@@ -234,8 +235,8 @@ nav {
         padding: 0;
     }
 
-    /* Travel */
-    .travel {
+    /* HostHome */
+    .hosthome {
         width: 100vw;
         display: flex;
         flex-wrap: nowrap;
@@ -248,49 +249,19 @@ nav {
         padding-bottom: 40px;
     }
 
-    .travel_pic {
+    .hosthome_pic {
         width: 20%; order: 2;
         justify-content: center;
         align-items: center;
     }
 
-    .travel_description {
+    .hosthome_description {
         width: 20%; order: 1;
         margin: 0; padding: 0;
         margin-left: 50px;
         text-align: justify;
     }
-
-    /* Restaurant */
-    .rest {
-        width: 100vw;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-flow: row nowrap;
-        flex-direction: row;
-        align-items: center;
-        align-content: center;
-        margin: auto;
-        justify-content: center;
-        padding-bottom: 40px;
-    }
-
-    .rest_pic {
-        width: 20%; order: 1;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .rest_description {
-        width: 20%; order: 2;
-        margin: 0; padding: 0;
-        margin-left: 50px;
-        text-align: justify;
-    }
-
 }
-
-/* C O N T A C T */
 
 /* F O O T E R */
 .footer {
